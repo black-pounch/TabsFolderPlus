@@ -2,7 +2,7 @@
  * Script principal
  */
 
-console.log("Debut du script :");
+//console.log("Debut du script :");
 
 var list_groups = new Array();
 var groupActif;

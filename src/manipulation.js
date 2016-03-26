@@ -169,7 +169,7 @@ function setGroupActif(group)
   $("#group_id_" + groupActif.id.toString()).addClass("group_actif");
 
   // On ouvre les onglets
-  console.log("Ouverture :" + groupActif.name);
+  //console.log("Ouverture :" + groupActif.name);
   for(var i=0 ; i < groupActif.list_tabs.length ; ++i)
   {
     createTab(groupActif.list_tabs[i]);

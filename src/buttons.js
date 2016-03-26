@@ -7,6 +7,9 @@ $( document ).ready(function() {
   });
 
   $("#list_groups").on( "click", ".group_remove", function() {
+    if (!window.confirm("Are you sure?")) {
+      return;
+    }
     var group = getGroup(getGroupId($(this)));
     
     if(group.id == groupActif.id)

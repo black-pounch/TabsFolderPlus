@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name" :"TabsFolder",
+  "name" :"TabsFolderPlus",
   "version" :"1.0.0",
   "description" :"Group your tabs into groups.",
   "icons": { "16":  "icon16.png",
@@ -9,8 +9,8 @@
 	     "128": "icon128.png" },
 
   "author": {
-      "name": "Conchilicultor",
-      "email": "conchilicultor@gmail.com" },
+      "name": "Sergey Ushakov",
+      "email": "sergushakov.public@gmail.com" },
       
   "permissions": ["tabs", "storage"],
 

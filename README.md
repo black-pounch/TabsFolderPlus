@@ -1,3 +1,5 @@
+This is a fork of abandoned Google Chrome extension (https://github.com/Conchylicultor/TabsFolder)
+
 # TabsFolder
 Group your tabs into groups.
 

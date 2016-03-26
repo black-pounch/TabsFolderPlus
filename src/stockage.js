@@ -77,7 +77,7 @@ function loadGroup()
       }
       else
       {
-	console.log("Premier lancement...");
+	//console.log("Premier lancement...");
       }
       
       if(string_totale != "")
@@ -110,7 +110,7 @@ function loadGroup()
       }
       else
       {
-	console.log("Non trouve");
+	//console.log("Non trouve");
       }
     });
   });
