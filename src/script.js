@@ -28,7 +28,12 @@ $( document ).ready(function() {
           nouvel_onglet.url = tab.url;
           nouvel_onglet.title = tab.title;
           nouvel_onglet.pinned = tab.pinned;
-          nouvel_onglet.icone = tab.favIconUrl;
+
+          // do not render favicons for a chrome pages
+          if (tab.favIconUrl && !tab.favIconUrl.match(/chrome:/)) {
+            nouvel_onglet.icone = tab.favIconUrl;
+          }
+
           nouvel_onglet.groupe_onglet = -1;
 
           // Ajout de l'onglet (sans ouvrir l'onglet)
